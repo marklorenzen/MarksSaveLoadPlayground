@@ -5,13 +5,10 @@
     public class WorkspacePresentationEdit: WorkspaceBase 
     {
         public const string PRESENTATION_EDIT_SUFFIX = "_PE";
+        public ActorStage Stage;
 
         public override string GetSpecificSuffix() { return PRESENTATION_EDIT_SUFFIX; }
         public override Color GetColor() { return Color.yellow; }
-
-
-        public ActorStage Stage;
-
 
         protected override void Awake()
         {
@@ -21,13 +18,11 @@
                 _actorCollection.Add(Stage);
         }
 
-
         public override bool IsRead_OnlyWorkspace()
         {
             //todo add all the presentation-edit specific reasons to be read-only
             return base.IsRead_OnlyWorkspace();
         }
-
 
         public override bool AddActor(IActor actor)
         {
@@ -72,7 +67,6 @@
 
             return base.SaveWorkspace(containerPath);
         }
-         
 
         public override bool ClearWorkspace()
         {
@@ -93,7 +87,6 @@
 
             return false;
         }
-
 
     }
 }
