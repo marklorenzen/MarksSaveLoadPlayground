@@ -165,7 +165,7 @@
                 _transform = new TransformHolder(trans);
                 _parent = _actor.GetActorParent();
                 _components = GetActorComponents(_actor);
-                _prefabKey = _actor.GetPrefabKey();//todo This is wrong, it should be the prefab key of the prefab of this object
+                _prefabKey = _actor.GetPrefabKey(); 
                 _actorType = actor.GetActorType().ToString();
             }
 
