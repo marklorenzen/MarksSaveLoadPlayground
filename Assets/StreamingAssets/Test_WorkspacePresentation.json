@@ -1,0 +1,470 @@
+{
+    "_fileName": "Test_WorkspacePresentation",
+    "_properties": {
+        "_workspaceTypeName": "WorkspacePresentationEdit",
+        "customPanelCluster": {},
+        "foo": 12,
+        "CurrentStationPoint": {
+            "_value": 0
+        },
+        "CurrentFavoriteThing": {
+            "_value": 0
+        },
+        "AmbientColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+        }
+    },
+    "_actorRecordCollection": [
+        {
+            "_name": "WorkspacePresentationRoot",
+            "_id": {
+                "_value": 11965311365661175300
+            },
+            "_parent": {
+                "_value": 18446744073709551615
+            },
+            "_parentName": "WorkspaceManager",
+            "_transform": {
+                "Position": {
+                    "x": -3030.0,
+                    "y": 6138.0,
+                    "z": -1.0699000358581544
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 31.233720779418947,
+                    "y": 31.233734130859376,
+                    "z": 31.233734130859376
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleOrange",
+            "_id": {
+                "_value": 8941467980492359794
+            },
+            "_parent": {
+                "_value": 11965311365661175300
+            },
+            "_parentName": "WorkspacePresentationRoot",
+            "_transform": {
+                "Position": {
+                    "x": 374.4755859375,
+                    "y": 359.75927734375,
+                    "z": -1.0699000358581544
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleOrange (1)",
+            "_id": {
+                "_value": 3902019517860406842
+            },
+            "_parent": {
+                "_value": 8941467980492359794
+            },
+            "_parentName": "ActorCapsuleOrange",
+            "_transform": {
+                "Position": {
+                    "x": 374.4755859375,
+                    "y": 359.75927734375,
+                    "z": -1.0699000358581544
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleOrange (161)",
+            "_id": {
+                "_value": 705070335791943320
+            },
+            "_parent": {
+                "_value": 8941467980492359794
+            },
+            "_parentName": "ActorCapsuleOrange",
+            "_transform": {
+                "Position": {
+                    "x": 374.4755859375,
+                    "y": 359.75927734375,
+                    "z": -1.0699000358581544
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleOrange (162)",
+            "_id": {
+                "_value": 5170436889506587905
+            },
+            "_parent": {
+                "_value": 8941467980492359794
+            },
+            "_parentName": "ActorCapsuleOrange",
+            "_transform": {
+                "Position": {
+                    "x": 374.4755859375,
+                    "y": 359.75927734375,
+                    "z": -1.0699000358581544
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleOrange (240)",
+            "_id": {
+                "_value": 5170436545909253395
+            },
+            "_parent": {
+                "_value": 8941467980492359794
+            },
+            "_parentName": "ActorCapsuleOrange",
+            "_transform": {
+                "Position": {
+                    "x": 374.4755859375,
+                    "y": 359.75927734375,
+                    "z": -1.0699000358581544
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleGreen",
+            "_id": {
+                "_value": 10807797755745583264
+            },
+            "_parent": {
+                "_value": 11965311365661175300
+            },
+            "_parentName": "WorkspacePresentationRoot",
+            "_transform": {
+                "Position": {
+                    "x": 312.008056640625,
+                    "y": 359.75927734375,
+                    "z": 4.239834785461426
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorChildCapsulePurple",
+            "_id": {
+                "_value": 13097989953467066022
+            },
+            "_parent": {
+                "_value": 10807797755745583264
+            },
+            "_parentName": "ActorCapsuleGreen",
+            "_transform": {
+                "Position": {
+                    "x": 297.953125,
+                    "y": 389.119140625,
+                    "z": 1.1164612770080567
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 0.44825124740600588,
+                    "y": 0.44825124740600588,
+                    "z": 0.44825124740600588
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleGreen (2)",
+            "_id": {
+                "_value": 7975276996661263115
+            },
+            "_parent": {
+                "_value": 11965311365661175300
+            },
+            "_parentName": "WorkspacePresentationRoot",
+            "_transform": {
+                "Position": {
+                    "x": 353.861083984375,
+                    "y": 298.228515625,
+                    "z": 4.239834785461426
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorChildCapsulePurple",
+            "_id": {
+                "_value": 1397675627946421291
+            },
+            "_parent": {
+                "_value": 7975276996661263115
+            },
+            "_parentName": "ActorCapsuleGreen (2)",
+            "_transform": {
+                "Position": {
+                    "x": 339.80615234375,
+                    "y": 327.58837890625,
+                    "z": 1.1164612770080567
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 0.44825124740600588,
+                    "y": 0.44825124740600588,
+                    "z": 0.44825124740600588
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleGreen (3)",
+            "_id": {
+                "_value": 2444726125443557366
+            },
+            "_parent": {
+                "_value": 11965311365661175300
+            },
+            "_parentName": "WorkspacePresentationRoot",
+            "_transform": {
+                "Position": {
+                    "x": 424.136962890625,
+                    "y": 318.84326171875,
+                    "z": 4.239834785461426
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorChildCapsulePurple",
+            "_id": {
+                "_value": 14281619564683413358
+            },
+            "_parent": {
+                "_value": 2444726125443557366
+            },
+            "_parentName": "ActorCapsuleGreen (3)",
+            "_transform": {
+                "Position": {
+                    "x": 410.08203125,
+                    "y": 348.20263671875,
+                    "z": 1.1164612770080567
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 0.44825124740600588,
+                    "y": 0.44825124740600588,
+                    "z": 0.44825124740600588
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleGreen (4)",
+            "_id": {
+                "_value": 15772931208128739301
+            },
+            "_parent": {
+                "_value": 11965311365661175300
+            },
+            "_parentName": "WorkspacePresentationRoot",
+            "_transform": {
+                "Position": {
+                    "x": 374.4755859375,
+                    "y": 422.2265625,
+                    "z": 4.239834785461426
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorChildCapsulePurple",
+            "_id": {
+                "_value": 1055836707644412826
+            },
+            "_parent": {
+                "_value": 15772931208128739301
+            },
+            "_parentName": "ActorCapsuleGreen (4)",
+            "_transform": {
+                "Position": {
+                    "x": 360.42041015625,
+                    "y": 451.58642578125,
+                    "z": 1.1164612770080567
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 0.44825124740600588,
+                    "y": 0.44825124740600588,
+                    "z": 0.44825124740600588
+                }
+            }
+        },
+        {
+            "_name": "ActorCapsuleGreen (5)",
+            "_id": {
+                "_value": 15768427593468590053
+            },
+            "_parent": {
+                "_value": 11965311365661175300
+            },
+            "_parentName": "WorkspacePresentationRoot",
+            "_transform": {
+                "Position": {
+                    "x": 442.252685546875,
+                    "y": 401.6123046875,
+                    "z": 4.239834785461426
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        },
+        {
+            "_name": "ActorChildCapsulePurple",
+            "_id": {
+                "_value": 3673273481936046266
+            },
+            "_parent": {
+                "_value": 15768427593468590053
+            },
+            "_parentName": "ActorCapsuleGreen (5)",
+            "_transform": {
+                "Position": {
+                    "x": 428.197509765625,
+                    "y": 430.97216796875,
+                    "z": 1.1164612770080567
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "Scale": {
+                    "x": 0.44825124740600588,
+                    "y": 0.44825124740600588,
+                    "z": 0.44825124740600588
+                }
+            }
+        }
+    ]
+}

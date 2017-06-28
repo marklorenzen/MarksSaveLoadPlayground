@@ -1,0 +1,182 @@
+{
+    "_fileName": "TestWorkspaceStage",
+    "_workspaceTypeName": "WorkspaceStageEdit",
+    "_rootActorRecord": {
+        "_name": "WorkspaceStageRoot",
+        "_id": {
+            "_value": 7922395356584001936
+        },
+        "_parent": {
+            "_value": 18446744073709551615
+        },
+        "_parentName": "WorkspaceManager",
+        "_transform": {
+            "Position": {
+                "x": 184.39999389648438,
+                "y": 481.0299987792969,
+                "z": 0.47999998927116396
+            },
+            "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        "_children": [
+            {
+                "_name": "ActorCapsuleGreen",
+                "_id": {
+                    "_value": 894672565387017111
+                },
+                "_parent": {
+                    "_value": 7922395356584001936
+                },
+                "_parentName": "WorkspaceStageRoot",
+                "_transform": {
+                    "Position": {
+                        "x": -5.420013427734375,
+                        "y": -3.470001220703125,
+                        "z": 0.6499999761581421
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                "_children": [
+                    {
+                        "_name": "ActorChildCapsulePurple",
+                        "_id": {
+                            "_value": 4347099626692229380
+                        },
+                        "_parent": {
+                            "_value": 894672565387017111
+                        },
+                        "_parentName": "ActorCapsuleGreen",
+                        "_transform": {
+                            "Position": {
+                                "x": -5.8700103759765629,
+                                "y": -2.529998779296875,
+                                "z": 0.550000011920929
+                            },
+                            "Rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "Scale": {
+                                "x": 0.44825124740600588,
+                                "y": 0.44825124740600588,
+                                "z": 0.44825124740600588
+                            }
+                        },
+                        "_children": [
+                            {
+                                "_name": "ActorCapsuleGreen (1)",
+                                "_id": {
+                                    "_value": 9801950740932795204
+                                },
+                                "_parent": {
+                                    "_value": 4347099626692229380
+                                },
+                                "_parentName": "ActorChildCapsulePurple",
+                                "_transform": {
+                                    "Position": {
+                                        "x": -5.420013427734375,
+                                        "y": -3.470001220703125,
+                                        "z": 0.6499999761581421
+                                    },
+                                    "Rotation": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0,
+                                        "w": 1.0
+                                    },
+                                    "Scale": {
+                                        "x": 2.2308919429779054,
+                                        "y": 2.2308919429779054,
+                                        "z": 2.2308919429779054
+                                    }
+                                },
+                                "_children": [
+                                    {
+                                        "_name": "ActorChildCapsulePurple",
+                                        "_id": {
+                                            "_value": 1090715814118111552
+                                        },
+                                        "_parent": {
+                                            "_value": 9801950740932795204
+                                        },
+                                        "_parentName": "ActorCapsuleGreen (1)",
+                                        "_transform": {
+                                            "Position": {
+                                                "x": -5.8700103759765629,
+                                                "y": -2.529998779296875,
+                                                "z": 0.550000011920929
+                                            },
+                                            "Rotation": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0,
+                                                "w": 1.0
+                                            },
+                                            "Scale": {
+                                                "x": 0.44825124740600588,
+                                                "y": 0.44825124740600588,
+                                                "z": 0.44825124740600588
+                                            }
+                                        },
+                                        "_children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "_name": "ActorCapsuleOrange",
+                "_id": {
+                    "_value": 14431932363022129173
+                },
+                "_parent": {
+                    "_value": 7922395356584001936
+                },
+                "_parentName": "WorkspaceStageRoot",
+                "_transform": {
+                    "Position": {
+                        "x": -2.600006103515625,
+                        "y": -3.470001220703125,
+                        "z": 0.47999998927116396
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    }
+                },
+                "_children": []
+            }
+        ]
+    }
+}

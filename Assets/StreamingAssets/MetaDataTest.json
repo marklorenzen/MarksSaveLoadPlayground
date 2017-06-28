@@ -1,0 +1,2453 @@
+{
+    "_header": [
+        "Strata inStudio VR metafile.",
+        "Copyright 2017, Strata Mixed Reality LTD.",
+        "All rights reserved."
+    ],
+    "_fileName": "MetaDataTest",
+    "_properties": {
+        "_workspaceTypeName": "WorkspacePresentationEdit",
+        "customPanelCluster": {},
+        "foo": 12,
+        "CurrentStationPoint": {
+            "_key": 0,
+            "_name": ""
+        },
+        "CurrentFavoriteThing": {
+            "_key": 0,
+            "_name": ""
+        },
+        "AmbientColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+        }
+    },
+    "_actorRecordCollection": [
+        {
+            "_id": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 7772222777722227777,
+                "_name": "invalid"
+            },
+            "_transform": {
+                "Position": [
+                    238.8000030517578,
+                    103.0999984741211,
+                    0.0
+                ],
+                "Rotation": [],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentWorkspaceRoot",
+                    "_id": {
+                        "_key": 15754394709231546485,
+                        "_name": "ActorRoot"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 0.0,
+                                "b": 0.0,
+                                "a": 0.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 14926361873620955953,
+                "_name": "ActorCapsuleOrangeAbraham"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_transform": {
+                "Position": [
+                    246.8000030517578,
+                    164.10000610351563,
+                    0.0
+                ],
+                "Rotation": [],
+                "Scale": [
+                    25.97480583190918,
+                    25.974878311157228,
+                    25.974878311157228
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 9555999215930547149,
+                        "_name": "ActorCapsuleOrangeAbraham"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 6352667895659927747,
+                "_name": "ComponentOrangeSarah"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 14926361873620955953,
+                "_name": "ActorCapsuleOrangeAbraham"
+            },
+            "_transform": {
+                "Position": [
+                    232.85153198242188,
+                    164.33377075195313,
+                    -5.194975852966309
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.7071068286895752,
+                    0.7071068286895752
+                ],
+                "Scale": [
+                    0.5951472520828247,
+                    0.5951472520828247,
+                    0.5951472520828247
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 5102884193739586753,
+                        "_name": "ComponentOrangeSarah"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 1919715155829148764,
+                "_name": "ActorCapsuleGreenIshmael"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 14926361873620955953,
+                "_name": "ActorCapsuleOrangeAbraham"
+            },
+            "_transform": {
+                "Position": [
+                    215.88998413085938,
+                    201.76358032226563,
+                    5.194975852966309
+                ],
+                "Rotation": [
+                    0.01535145752131939,
+                    -0.13507486879825593,
+                    0.5272703170776367,
+                    0.8387522101402283
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 17767338371981107348,
+                        "_name": "ActorCapsuleGreenIshmael"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.8896551132202148,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 5709555390304535426,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 14926361873620955953,
+                "_name": "ActorCapsuleOrangeAbraham"
+            },
+            "_transform": {
+                "Position": [
+                    201.10092163085938,
+                    176.841552734375,
+                    5.194975852966309
+                ],
+                "Rotation": [
+                    0.01535145752131939,
+                    -0.13507486879825593,
+                    0.5272703170776367,
+                    0.8387522101402283
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10474307879639620503,
+                        "_name": "ActorCapsuleBlueIsaac"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 0.42068958282470705,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 9956908330518894150,
+                "_name": "ComponentPurpleRebecca"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 5709555390304535426,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    175.18707275390626,
+                    177.81695556640626,
+                    -2.993398904800415
+                ],
+                "Rotation": [
+                    0.01535145752131939,
+                    -0.13507486879825593,
+                    0.5272703170776367,
+                    0.8387522101402283
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10337159906696738561,
+                        "_name": "ComponentPurpleRebecca"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 10284628679064853051,
+                "_name": "ActorCapsuleGreenEsau"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 5709555390304535426,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    162.5249481201172,
+                    195.590087890625,
+                    5.166125774383545
+                ],
+                "Rotation": [
+                    0.06943351030349732,
+                    -0.11687532067298889,
+                    0.8250439167022705,
+                    0.5484724640846252
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 13677471147710177640,
+                        "_name": "ActorCapsuleGreenEsau"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.14482736587524415,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 10482168358846245587,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 5709555390304535426,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    149.9495086669922,
+                    173.35020446777345,
+                    5.277466773986816
+                ],
+                "Rotation": [
+                    0.06943351030349732,
+                    -0.11687532067298889,
+                    0.8250439167022705,
+                    0.5484724640846252
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 13013987921114815384,
+                        "_name": "ActorCapsuleGreenJacob"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 1.0,
+                                "b": 0.2551722526550293,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 3241650986020887838,
+                "_name": "ComponentPurpleRachel"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10482168358846245587,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    132.03477478027345,
+                    154.60072326660157,
+                    -2.9109041690826418
+                ],
+                "Rotation": [
+                    0.06943351030349732,
+                    -0.11687532067298889,
+                    0.8250439167022705,
+                    0.5484724640846252
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 9332517083363122277,
+                        "_name": "ComponentPurpleRachel"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 12041607928351224702,
+                "_name": "ActorCapsuleGreenJoseph"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10482168358846245587,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    102.59037780761719,
+                    175.45550537109376,
+                    5.195075035095215
+                ],
+                "Rotation": [
+                    0.020050648599863054,
+                    -0.134457528591156,
+                    0.5561882257461548,
+                    0.8198621869087219
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 17321704444398723908,
+                        "_name": "ActorCapsuleGreenJoseph"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.6551723480224609,
+                                "g": 0.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 10356060866788787866,
+                "_name": "ActorCapsuleOrangeAbraham (1)"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_transform": {
+                "Position": [
+                    246.8000030517578,
+                    164.10000610351563,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.4479998052120209,
+                    0.8940337300300598
+                ],
+                "Scale": [
+                    25.974809646606447,
+                    25.97488021850586,
+                    25.97488021850586
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 3969285613465500369,
+                        "_name": "ActorCapsuleOrangeAbraham (1)"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 9342617497387018965,
+                "_name": "ComponentOrangeSarah"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10356060866788787866,
+                "_name": "ActorCapsuleOrangeAbraham (1)"
+            },
+            "_transform": {
+                "Position": [
+                    238.6378173828125,
+                    175.41342163085938,
+                    -5.194976329803467
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.948961079120636,
+                    0.3153936266899109
+                ],
+                "Scale": [
+                    0.5951472520828247,
+                    0.5951472520828247,
+                    0.5951472520828247
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 17189156550786470229,
+                        "_name": "ComponentOrangeSarah"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 10381407736178760616,
+                "_name": "ActorCapsuleGreenIshmael"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10356060866788787866,
+                "_name": "ActorCapsuleOrangeAbraham (1)"
+            },
+            "_transform": {
+                "Position": [
+                    258.4680480957031,
+                    211.40573120117188,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.04678879305720329,
+                    -0.12763893604278565,
+                    0.09563663601875305,
+                    0.9860897064208984
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 18107320914406300096,
+                        "_name": "ActorCapsuleGreenIshmael"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.8896551132202148,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 15178966160534260112,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10356060866788787866,
+                "_name": "ActorCapsuleOrangeAbraham (1)"
+            },
+            "_transform": {
+                "Position": [
+                    229.65155029296876,
+                    208.3344268798828,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.04678879305720329,
+                    -0.12763893604278565,
+                    0.09563663601875305,
+                    0.9860897064208984
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10038041198151913074,
+                        "_name": "ActorCapsuleBlueIsaac"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 0.42068958282470705,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 1539756194778777148,
+                "_name": "ComponentPurpleRebecca"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 15178966160534260112,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    214.9210662841797,
+                    229.67669677734376,
+                    -2.993399143218994
+                ],
+                "Rotation": [
+                    -0.04678879305720329,
+                    -0.12763893604278565,
+                    0.09563663601875305,
+                    0.9860897064208984
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 9380729044589402052,
+                        "_name": "ComponentPurpleRebecca"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 15051940723695313492,
+                "_name": "ActorCapsuleGreenEsau"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 15178966160534260112,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    221.578857421875,
+                    250.45858764648438,
+                    5.166126251220703
+                ],
+                "Rotation": [
+                    0.00971578061580658,
+                    -0.13559667766094209,
+                    0.4919015169143677,
+                    0.859972357749939
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 11849411330887283884,
+                        "_name": "ActorCapsuleGreenEsau"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.14482736587524415,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 13754169743773363388,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 15178966160534260112,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    196.23594665527345,
+                    247.21957397460938,
+                    5.277467250823975
+                ],
+                "Rotation": [
+                    0.00971578061580658,
+                    -0.13559667766094209,
+                    0.4919015169143677,
+                    0.859972357749939
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 9649029502026073502,
+                        "_name": "ActorCapsuleGreenJacob"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 1.0,
+                                "b": 0.2551722526550293,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 8290109973689241631,
+                "_name": "ComponentPurpleRachel"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 13754169743773363388,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    170.49298095703126,
+                    250.34695434570313,
+                    -2.9109044075012209
+                ],
+                "Rotation": [
+                    0.00971578061580658,
+                    -0.13559667766094209,
+                    0.4919015169143677,
+                    0.859972357749939
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 9504079590040382514,
+                        "_name": "ComponentPurpleRachel"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 10976578188525921132,
+                "_name": "ActorCapsuleGreenJoseph"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 13754169743773363388,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    169.57359313964845,
+                    286.4170227050781,
+                    5.195075035095215
+                ],
+                "Rotation": [
+                    -0.042310990393161777,
+                    -0.12919224798679353,
+                    0.12995293736457826,
+                    0.9821566343307495
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 17333808261221449175,
+                        "_name": "ActorCapsuleGreenJoseph"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.6551723480224609,
+                                "g": 0.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 13033933568622756920,
+                "_name": "ActorCapsuleOrangeAbraham (2)"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_transform": {
+                "Position": [
+                    246.8000030517578,
+                    164.10000610351563,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.795347273349762,
+                    0.6061540842056274
+                ],
+                "Scale": [
+                    25.974815368652345,
+                    25.974899291992189,
+                    25.97488021850586
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 15705140457286588925,
+                        "_name": "ActorCapsuleOrangeAbraham (2)"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 3756906690973928729,
+                "_name": "ComponentOrangeSarah"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 13033933568622756920,
+                "_name": "ActorCapsuleOrangeAbraham (2)"
+            },
+            "_transform": {
+                "Position": [
+                    250.72390747070313,
+                    177.48721313476563,
+                    -5.194976329803467
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.9910112023353577,
+                    -0.13377982378005982
+                ],
+                "Scale": [
+                    0.5951472520828247,
+                    0.5951472520828247,
+                    0.5951472520828247
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 5584226236982219790,
+                        "_name": "ComponentOrangeSarah"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 7965435139415989491,
+                "_name": "ActorCapsuleGreenIshmael"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 13033933568622756920,
+                "_name": "ActorCapsuleOrangeAbraham (2)"
+            },
+            "_transform": {
+                "Position": [
+                    291.3114013671875,
+                    183.91696166992188,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.09812607616186142,
+                    -0.09408591687679291,
+                    -0.3474922478199005,
+                    0.9277760982513428
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 3954955867007202456,
+                        "_name": "ActorCapsuleGreenIshmael"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.8896551132202148,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 16425505501886745085,
+                "_name": "ActorCapsuleOrangeAbraham (3)"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_transform": {
+                "Position": [
+                    246.8000030517578,
+                    164.10000610351563,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.9871046543121338,
+                    0.16007636487483979
+                ],
+                "Scale": [
+                    25.97482681274414,
+                    25.974903106689454,
+                    25.97488021850586
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10295534090812478520,
+                        "_name": "ActorCapsuleOrangeAbraham (3)"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 2090248243739726999,
+                "_name": "ComponentOrangeSarah"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 16425505501886745085,
+                "_name": "ActorCapsuleOrangeAbraham (3)"
+            },
+            "_transform": {
+                "Position": [
+                    260.1075134277344,
+                    168.2862548828125,
+                    -5.194976329803467
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.811179518699646,
+                    -0.5847973823547363
+                ],
+                "Scale": [
+                    0.5951472520828247,
+                    0.5951472520828247,
+                    0.5951472520828247
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 17189684317173109237,
+                        "_name": "ComponentOrangeSarah"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 1862840838718693404,
+                "_name": "ActorCapsuleGreenIshmael"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 16425505501886745085,
+                "_name": "ActorCapsuleOrangeAbraham (3)"
+            },
+            "_transform": {
+                "Position": [
+                    288.028564453125,
+                    138.13491821289063,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.1308756172657013,
+                    -0.03677579015493393,
+                    -0.7435327172279358,
+                    0.6547353863716126
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 18107567203668745668,
+                        "_name": "ActorCapsuleGreenIshmael"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.8896551132202148,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 15584780413444817872,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 16425505501886745085,
+                "_name": "ActorCapsuleOrangeAbraham (3)"
+            },
+            "_transform": {
+                "Position": [
+                    294.1837463378906,
+                    166.45346069335938,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.1308756172657013,
+                    -0.03677579015493393,
+                    -0.7435327172279358,
+                    0.6547353863716126
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 6643718293784534066,
+                        "_name": "ActorCapsuleBlueIsaac"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 0.42068958282470705,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 4026413260438598844,
+                "_name": "ComponentPurpleRebecca"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 15584780413444817872,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    319.07781982421877,
+                    173.71743774414063,
+                    -2.993399143218994
+                ],
+                "Rotation": [
+                    -0.1308756172657013,
+                    -0.03677579015493393,
+                    -0.7435327172279358,
+                    0.6547353863716126
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 15372536512914556306,
+                        "_name": "ComponentPurpleRebecca"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 15051896743265853956,
+                "_name": "ActorCapsuleGreenEsau"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 15584780413444817872,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    336.707763671875,
+                    160.856689453125,
+                    5.166126251220703
+                ],
+                "Rotation": [
+                    -0.10425350815057755,
+                    -0.08724711835384369,
+                    -0.40932968258857729,
+                    0.9022021293640137
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 7713845833119508748,
+                        "_name": "ActorCapsuleGreenEsau"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.14482736587524415,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 9188641196982909073,
+                "_name": "ActorCapsuleOrangeAbraham (4)"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_transform": {
+                "Position": [
+                    246.8000030517578,
+                    164.10000610351563,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.9304778575897217,
+                    -0.36634814739227297
+                ],
+                "Scale": [
+                    25.97484016418457,
+                    25.974918365478517,
+                    25.97488021850586
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 11158214825148812747,
+                        "_name": "ActorCapsuleOrangeAbraham (4)"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 12709900705960926230,
+                "_name": "ComponentOrangeSarah"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9188641196982909073,
+                "_name": "ActorCapsuleOrangeAbraham (4)"
+            },
+            "_transform": {
+                "Position": [
+                    256.84503173828127,
+                    154.4194793701172,
+                    -5.194976329803467
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.39889997243881228,
+                    -0.9169945120811462
+                ],
+                "Scale": [
+                    0.5951472520828247,
+                    0.5951472520828247,
+                    0.5951472520828247
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 11880003892828114501,
+                        "_name": "ComponentOrangeSarah"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 12649445936721040485,
+                "_name": "ActorCapsuleGreenIshmael"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9188641196982909073,
+                "_name": "ActorCapsuleOrangeAbraham (4)"
+            },
+            "_transform": {
+                "Position": [
+                    243.73565673828126,
+                    115.47293853759766,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.1313081532716751,
+                    0.03520023822784424,
+                    -0.9736047983169556,
+                    0.1833380162715912
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 7901007009724104919,
+                        "_name": "ActorCapsuleGreenIshmael"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.8896551132202148,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 2406530034364107099,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9188641196982909073,
+                "_name": "ActorCapsuleOrangeAbraham (4)"
+            },
+            "_transform": {
+                "Position": [
+                    271.54583740234377,
+                    123.622802734375,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.1313081532716751,
+                    0.03520023822784424,
+                    -0.9736047983169556,
+                    0.1833380162715912
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 15008600036602414040,
+                        "_name": "ActorCapsuleBlueIsaac"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 0.42068958282470705,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 8154124614982441580,
+                "_name": "ComponentPurpleRebecca"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 2406530034364107099,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    289.8388671875,
+                    105.24221801757813,
+                    -2.993399143218994
+                ],
+                "Rotation": [
+                    -0.1313081532716751,
+                    0.03520023822784424,
+                    -0.9736047983169556,
+                    0.1833380162715912
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 2850798878341049857,
+                        "_name": "ComponentPurpleRebecca"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 9899949148198021497,
+                "_name": "ActorCapsuleGreenEsau"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 2406530034364107099,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    286.9852294921875,
+                    83.60726928710938,
+                    5.166126251220703
+                ],
+                "Rotation": [
+                    -0.1341867297887802,
+                    -0.021789290010929109,
+                    -0.8125947713851929,
+                    0.5667532682418823
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 5388339424792598990,
+                        "_name": "ActorCapsuleGreenEsau"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.14482736587524415,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 822780324884041566,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 2406530034364107099,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    311.3473815917969,
+                    91.30408477783203,
+                    5.277467250823975
+                ],
+                "Rotation": [
+                    -0.1341867297887802,
+                    -0.021789290010929109,
+                    -0.8125947713851929,
+                    0.5667532682418823
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 9631296577084015894,
+                        "_name": "ActorCapsuleGreenJacob"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 1.0,
+                                "b": 0.2551722526550293,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 5428979887728149191,
+                "_name": "ComponentPurpleRachel"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 822780324884041566,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    337.2360534667969,
+                    92.80728912353516,
+                    -2.9109044075012209
+                ],
+                "Rotation": [
+                    -0.1341867297887802,
+                    -0.021789290010929109,
+                    -0.8125947713851929,
+                    0.5667532682418823
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10689590724707098885,
+                        "_name": "ComponentPurpleRachel"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 11598012978604390938,
+                "_name": "ActorCapsuleGreenJoseph"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 822780324884041566,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    344.55902099609377,
+                    57.47639465332031,
+                    5.195075035095215
+                ],
+                "Rotation": [
+                    -0.1324552595615387,
+                    0.030601581558585168,
+                    -0.9666221737861633,
+                    0.21716585755348206
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 217656815127412725,
+                        "_name": "ActorCapsuleGreenJoseph"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.6551723480224609,
+                                "g": 0.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 7463433359651828672,
+                "_name": "ActorCapsuleOrangeAbraham (5)"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 9091138888450463309,
+                "_name": "ActorRoot"
+            },
+            "_transform": {
+                "Position": [
+                    246.8000030517578,
+                    164.10000610351563,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    -0.55463707447052,
+                    -0.8320924639701843
+                ],
+                "Scale": [
+                    25.97484588623047,
+                    25.97492218017578,
+                    25.97488021850586
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 11744933813659046301,
+                        "_name": "ActorCapsuleOrangeAbraham (5)"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 11591773516680597060,
+                "_name": "ComponentOrangeSarah"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 7463433359651828672,
+                "_name": "ActorCapsuleOrangeAbraham (5)"
+            },
+            "_transform": {
+                "Position": [
+                    241.21746826171876,
+                    151.3152313232422,
+                    -5.194976329803467
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.19619059562683106,
+                    -0.9805659055709839
+                ],
+                "Scale": [
+                    0.5951472520828247,
+                    0.5951472520828247,
+                    0.5951472520828247
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10404059895774682132,
+                        "_name": "ComponentOrangeSarah"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.475862056016922,
+                                "b": 0.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 8216240471753394642,
+                "_name": "ActorCapsuleGreenIshmael"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 7463433359651828672,
+                "_name": "ActorCapsuleOrangeAbraham (5)"
+            },
+            "_transform": {
+                "Position": [
+                    200.1429443359375,
+                    150.0607147216797,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.08769136667251587,
+                    0.10388029366731644,
+                    -0.903940737247467,
+                    -0.4054757058620453
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 5163870311097174246,
+                        "_name": "ActorCapsuleGreenIshmael"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.8896551132202148,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 12687380003914667076,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 7463433359651828672,
+                "_name": "ActorCapsuleOrangeAbraham (5)"
+            },
+            "_transform": {
+                "Position": [
+                    217.456298828125,
+                    126.82121276855469,
+                    5.194976329803467
+                ],
+                "Rotation": [
+                    -0.08769136667251587,
+                    0.10388029366731644,
+                    -0.903940737247467,
+                    -0.4054757058620453
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 13947935960732562065,
+                        "_name": "ActorCapsuleBlueIsaac"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 0.42068958282470705,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 3119200608952222681,
+                "_name": "ComponentPurpleRebecca"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 12687380003914667076,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    206.58546447753907,
+                    103.27750396728516,
+                    -2.993399143218994
+                ],
+                "Rotation": [
+                    -0.08769136667251587,
+                    0.10388029366731644,
+                    -0.903940737247467,
+                    -0.4054757058620453
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 6985379680652127013,
+                        "_name": "ComponentPurpleRebecca"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 15858893492706540562,
+                "_name": "ActorCapsuleGreenEsau"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 12687380003914667076,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    185.30868530273438,
+                    98.42842864990235,
+                    5.166126251220703
+                ],
+                "Rotation": [
+                    -0.12259848415851593,
+                    0.05874067172408104,
+                    -0.9907159805297852,
+                    0.0012201368808746338
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 2177739536068214720,
+                        "_name": "ActorCapsuleGreenEsau"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 1.0,
+                                "g": 0.0,
+                                "b": 0.14482736587524415,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 10615628257283973640,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 12687380003914667076,
+                "_name": "ActorCapsuleBlueIsaac"
+            },
+            "_transform": {
+                "Position": [
+                    200.99806213378907,
+                    78.26412963867188,
+                    5.277467250823975
+                ],
+                "Rotation": [
+                    -0.12259848415851593,
+                    0.05874067172408104,
+                    -0.9907159805297852,
+                    0.0012201368808746338
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 10292422227756693145,
+                        "_name": "ActorCapsuleGreenJacob"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.0,
+                                "g": 1.0,
+                                "b": 0.2551722526550293,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 9901429414154766921,
+                "_name": "ComponentPurpleRachel"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10615628257283973640,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    211.41140747070313,
+                    54.514488220214847,
+                    -2.9109044075012209
+                ],
+                "Rotation": [
+                    -0.12259848415851593,
+                    0.05874067172408104,
+                    -0.9907159805297852,
+                    0.0012201368808746338
+                ],
+                "Scale": [
+                    0.44825124740600588,
+                    0.44825124740600588,
+                    0.44825124740600588
+                ]
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 8150498411010561119,
+                        "_name": "ComponentPurpleRachel"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.5808823108673096,
+                                "g": 0.5808823108673096,
+                                "b": 0.5808823108673096,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "_id": {
+                "_key": 13215834001866485928,
+                "_name": "ActorCapsuleGreenJoseph"
+            },
+            "_prefabID": "unknown",
+            "_parent": {
+                "_key": 10615628257283973640,
+                "_name": "ActorCapsuleGreenJacob"
+            },
+            "_transform": {
+                "Position": [
+                    180.83311462402345,
+                    35.36072540283203,
+                    5.195075035095215
+                ],
+                "Rotation": [
+                    -0.09125912934541702,
+                    0.10076026618480683,
+                    -0.9175260066986084,
+                    -0.3737185299396515
+                ],
+                "Scale": []
+            },
+            "_components": [
+                {
+                    "_type": "ActorComponentBeACapsule",
+                    "_id": {
+                        "_key": 217656814724759541,
+                        "_name": "ActorCapsuleGreenJoseph"
+                    },
+                    "_data": {
+                        "beACapsuleData": {
+                            "_color": {
+                                "r": 0.6551723480224609,
+                                "g": 0.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "_dependencyManifest": {
+        "_dependencies": [
+            {
+                "_id": {
+                    "_key": 9091138888450463309,
+                    "_name": "ActorRoot"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 14926361873620955953,
+                    "_name": "ActorCapsuleOrangeAbraham"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 6352667895659927747,
+                    "_name": "ComponentOrangeSarah"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 1919715155829148764,
+                    "_name": "ActorCapsuleGreenIshmael"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 5709555390304535426,
+                    "_name": "ActorCapsuleBlueIsaac"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 9956908330518894150,
+                    "_name": "ComponentPurpleRebecca"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 10284628679064853051,
+                    "_name": "ActorCapsuleGreenEsau"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 10482168358846245587,
+                    "_name": "ActorCapsuleGreenJacob"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 3241650986020887838,
+                    "_name": "ComponentPurpleRachel"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 12041607928351224702,
+                    "_name": "ActorCapsuleGreenJoseph"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 10356060866788787866,
+                    "_name": "ActorCapsuleOrangeAbraham (1)"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 9342617497387018965,
+                    "_name": "ComponentOrangeSarah"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 10381407736178760616,
+                    "_name": "ActorCapsuleGreenIshmael"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 15178966160534260112,
+                    "_name": "ActorCapsuleBlueIsaac"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 1539756194778777148,
+                    "_name": "ComponentPurpleRebecca"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 15051940723695313492,
+                    "_name": "ActorCapsuleGreenEsau"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 13754169743773363388,
+                    "_name": "ActorCapsuleGreenJacob"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 8290109973689241631,
+                    "_name": "ComponentPurpleRachel"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 10976578188525921132,
+                    "_name": "ActorCapsuleGreenJoseph"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 13033933568622756920,
+                    "_name": "ActorCapsuleOrangeAbraham (2)"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 3756906690973928729,
+                    "_name": "ComponentOrangeSarah"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 7965435139415989491,
+                    "_name": "ActorCapsuleGreenIshmael"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 16425505501886745085,
+                    "_name": "ActorCapsuleOrangeAbraham (3)"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 2090248243739726999,
+                    "_name": "ComponentOrangeSarah"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 1862840838718693404,
+                    "_name": "ActorCapsuleGreenIshmael"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 15584780413444817872,
+                    "_name": "ActorCapsuleBlueIsaac"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 4026413260438598844,
+                    "_name": "ComponentPurpleRebecca"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 15051896743265853956,
+                    "_name": "ActorCapsuleGreenEsau"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 9188641196982909073,
+                    "_name": "ActorCapsuleOrangeAbraham (4)"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 12709900705960926230,
+                    "_name": "ComponentOrangeSarah"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 12649445936721040485,
+                    "_name": "ActorCapsuleGreenIshmael"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 2406530034364107099,
+                    "_name": "ActorCapsuleBlueIsaac"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 8154124614982441580,
+                    "_name": "ComponentPurpleRebecca"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 9899949148198021497,
+                    "_name": "ActorCapsuleGreenEsau"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 822780324884041566,
+                    "_name": "ActorCapsuleGreenJacob"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 5428979887728149191,
+                    "_name": "ComponentPurpleRachel"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 11598012978604390938,
+                    "_name": "ActorCapsuleGreenJoseph"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 7463433359651828672,
+                    "_name": "ActorCapsuleOrangeAbraham (5)"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 11591773516680597060,
+                    "_name": "ComponentOrangeSarah"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 8216240471753394642,
+                    "_name": "ActorCapsuleGreenIshmael"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 12687380003914667076,
+                    "_name": "ActorCapsuleBlueIsaac"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 3119200608952222681,
+                    "_name": "ComponentPurpleRebecca"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 15858893492706540562,
+                    "_name": "ActorCapsuleGreenEsau"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 10615628257283973640,
+                    "_name": "ActorCapsuleGreenJacob"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 9901429414154766921,
+                    "_name": "ComponentPurpleRachel"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            },
+            {
+                "_id": {
+                    "_key": 13215834001866485928,
+                    "_name": "ActorCapsuleGreenJoseph"
+                },
+                "_url": "FakeTestDependencies/SophiaVergara.png"
+            }
+        ]
+    }
+}

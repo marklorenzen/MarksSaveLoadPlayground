@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D6F63AE-C7A7-8B71-950D-F0FCB0BC8029}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Container\ZipPlugin\Ionic.Zip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ActorPrefabCollection.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\Actor\Actor.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\Actor\ActorID.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\Actor\ActorStage.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\Actor\ActorTest.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\Actor\IActor.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponent.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponentBeACapsule.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponentBeAnAnchor.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponentBuildable.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponentBuildablePart.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponentTest.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\ActorComponentWorkspaceRoot.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorComponent\IActorComponent.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorFactory\ActorFactory.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorFactory\ActorPrefabService.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorFactory\ActorStore.cs" />
+    <Compile Include="Assets\_Strata_Local\Actor\Scripts\ActorFactory\Events\EventActorX.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Alias.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Container\ISVR_ContainerZip.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Container\Test\DownloadUnzipAndApplyImage.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Container\Test\TestWorkspaceSaveLoad.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Container\ZipPlugin\ZipUtil.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_DependencyManifest.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_FileRequestorClient.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_MetaData.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_MetaDataFile.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_MetaDataSerializer.cs" />
+    <Compile Include="Assets\_Strata_Local\ISVR_Files\Scripts\ISVR_Workspace.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventCallMainMenu.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventImportLoadingStatusChange.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventMenuStatusChange.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventNotification.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventObjectAwake.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventPersistantSettingChange.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventPersistantSettingRequest.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventPlaySound.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventPostSceneLoad.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventPreSceneLoad.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventResetScene.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventSEModeSwitch.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventSaveLoad.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\EventUIPopupActivate.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\Examples\EventExampleComplex.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventClasses\Examples\EventExampleSimple.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventManager.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\Event EndPoints\AccumulatorCaller.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\Event EndPoints\ChildSetter.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\Event EndPoints\OnlyPassOnOnce.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\Event EndPoints\TransferObjectReference.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventHandlerNotification.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventHandlerObjectAwake.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventHandlerPersistantSettings.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventInvokerControllerButtons.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventInvokerMenuStatusChange.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventInvokerObjectAwake.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventRecieverObjectAwake.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\EventSenderObjectAwake.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\MenuStatusChangeInvoker.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\ResetScene.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\EventRelated\SettingsEventReciever.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\IEvent.cs" />
+    <Compile Include="Assets\_Strata_Local\Scripts\Events\IEventListener.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\Events\EventWorkspace.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\IWorkspace.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\WorkspaceBase.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\WorkspaceManager.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\WorkspacePresentationEdit.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\WorkspaceShowMode.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\WorkspaceStageEdit.cs" />
+    <Compile Include="Assets\_Strata_Local\Workspace\Scripts\WorkspaceTest.cs" />
+    <Compile Include="Assets\_Strata_UnityCode\Scripts\MonoSingleton.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
