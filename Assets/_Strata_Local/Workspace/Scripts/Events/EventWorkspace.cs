@@ -2,7 +2,7 @@
 {
     public class EventWorkspaceNew : IEvent
     {
-        //todo add the type of workspace, perhaps
+        //TODO add the type of workspace, perhaps
         public EventWorkspaceNew(WorkspaceManager.WorkspaceType type)
         {
             _type = type;

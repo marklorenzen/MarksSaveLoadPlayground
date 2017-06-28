@@ -31,7 +31,7 @@
                 _prefab = prefab as IActor;
             }
             public IActor _prefab;
-            //todo, maybe there are also other ways to retrieve the game object, such as URL or license key
+            //TODO, maybe there are also other ways to retrieve the game object, such as URL or license key
         }
 
         Dictionary<string, Record> _collection = new Dictionary<string, Record>();

@@ -18,7 +18,7 @@
         public virtual string GetWorkspaceTypeName() { return GetType().Name; }
 
         public string GetAuthorLockName() { return AuthorLockName; }
-        public Transform GetWorkspaceTransform() { return transform; }//todo cache this as _transform
+        public Transform GetWorkspaceTransform() { return transform; }//TODO cache this as _transform
         public ISVR_MetaData MetaData = new ISVR_MetaData();
         public IActor GetActorRoot() { return ActorRoot; }
 
@@ -33,7 +33,7 @@
         }
 
         /// <summary>
-        /// todo, this should use the collections of actors already
+        /// TODO, this should use the collections of actors already
         /// populated and validated in the subclass(es)
         /// </summary>
         /// <returns></returns>
@@ -42,7 +42,7 @@
         string GetLocalUserName()
         {
             return "Mark Lorenzen";
-            //todo: instead, retrieve the local user name from the install stats, the name by which this copy of isvr was registered.
+            //TODO: instead, retrieve the local user name from the install stats, the name by which this copy of isvr was registered.
         }
 
         public virtual bool IsRead_OnlyWorkspace()
@@ -51,7 +51,7 @@
             if (!localUserName.Equals(MetaData._properties._authorLockName))
                 return true;
 
-            //todo: add many more conditions that constitute read-only status
+            //TODO: add many more conditions that constitute read-only status
 
             return false;
         }
@@ -62,8 +62,8 @@
             {
                 Debug.LogWarning("not allowing actor addition because workspace is read only");
                 return false;
-                //todo the disallowing of the addition of any actor should have been preempted farther down the call stack
-                //todo there are many more and better ways to prevent a locked author from making edits to workspace, so
+                //TODO the disallowing of the addition of any actor should have been preempted farther down the call stack
+                //TODO there are many more and better ways to prevent a locked author from making edits to workspace, so
                 //come up with a catch all way to make a workspace effectively read-only!
             }
 
@@ -76,7 +76,7 @@
                 return false;
             }
 
-            //todo, this assumes there will be only one root actor in the metadata
+            //TODO, this assumes there will be only one root actor in the metadata
             if (actor.GetActorType() == ActorType.Root)
             {
                 Debug.Assert(ActorRoot == null, "It appears there are more than one ActorRoots in the loaded metadata... wierd");
@@ -95,8 +95,8 @@
             {
                 Debug.LogWarning("not allowing actor removal because workspace is read only");
                 return;
-                //todo the disallowing of the addition of any actor should have been preempted farther down the call stack
-                //todo there are many more and better ways to prevent a locked author from making edits to workspace, so
+                //TODO the disallowing of the addition of any actor should have been preempted farther down the call stack
+                //TODO there are many more and better ways to prevent a locked author from making edits to workspace, so
                 //come up with a catch all way to make a workspace effectively read-only!
             }
 
@@ -237,7 +237,7 @@
                     continue;  
                 }
 
-                //todo, it would be great to overload the ctor of EventActorCreate to take the prefabID and do all 
+                //TODO, it would be great to overload the ctor of EventActorCreate to take the prefabID and do all 
                 //of the above work internally to the ActorFactory subscriber
                 var createData = new EventActorCreate.Data(prefab);
                 EventManager.TriggerEvent(new EventActorCreate(createData));
@@ -280,7 +280,7 @@
 
         public void Activate(bool active)
         {
-            //todo, the ActorFactory usedID's seems to get stale each time we switch
+            //TODO, the ActorFactory usedID's seems to get stale each time we switch
             //workspaces, perhaps it needs a little nudge
             //the intention is to keep any and all concurrent workspaces full
             //of validly ID'd actors
@@ -293,7 +293,7 @@
 
         protected virtual void OnActivated(bool active)
         {
-            Camera.main.backgroundColor = GetColor()*.2f;//todo hack hack hack
+            Camera.main.backgroundColor = GetColor()*.2f;//TODO hack hack hack
         }
 
         protected bool PopulateMetaData()

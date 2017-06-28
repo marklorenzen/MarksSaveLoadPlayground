@@ -9,17 +9,17 @@
 
         public void Save()
         {
-            EventManager.TriggerEvent(new EventWorkspaceSave(TEST_METADATA_FILENAME));//todo this is just for test
+            EventManager.TriggerEvent(new EventWorkspaceSave(TEST_METADATA_FILENAME));//TODO this is just for test
         }
 
         public void Load()
         {
-            EventManager.TriggerEvent(new EventWorkspaceLoad(TEST_METADATA_FILENAME));//todo this is just for test
+            EventManager.TriggerEvent(new EventWorkspaceLoad(TEST_METADATA_FILENAME));//TODO this is just for test
         }
 
         public void New()
         {
-            //todo obsolete and stupid
+            //TODO obsolete and stupid
             EventManager.TriggerEvent(new EventWorkspaceNew(WorkspaceManager.WorkspaceType.PresentationEdit));
         }
     }

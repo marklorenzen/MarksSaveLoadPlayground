@@ -31,7 +31,7 @@
         }
 
         /// <summary>
-        /// todo this is bogus. should return the parent actor of the buildable
+        /// TODO this is bogus. should return the parent actor of the buildable
         /// </summary>
         /// <returns></returns>
         public override ActorID GetActorAncestor()
@@ -39,5 +39,5 @@
             return ActorID.InvalidID;
         }
 
-     }
+    }
 }

@@ -17,6 +17,7 @@
 
         public ISVR_MetaData()
         {
+            //TODO source this string from server?
             _header = new string[]
             { "Strata inStudio VR metafile.",
             "Copyright 2017, Strata Mixed Reality LTD.",

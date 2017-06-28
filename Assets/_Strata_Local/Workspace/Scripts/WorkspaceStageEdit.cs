@@ -2,7 +2,7 @@
 {
     using UnityEngine;
 
-    public class WorkspaceStageEdit: WorkspaceBase 
+    public class WorkspaceStageEdit : WorkspaceBase
     {
         public const string STAGE_EDIT_SUFFIX = "_SE";
 
@@ -11,7 +11,7 @@
 
         public override bool IsRead_OnlyWorkspace()
         {
-            //todo add all the stage-edit specific reasons to be read-only
+            //TODO add all the stage-edit specific reasons to be read-only
             return base.IsRead_OnlyWorkspace();
         }
 
@@ -22,12 +22,12 @@
             private set { _anchorAsset = value; }
         }
 
-        bool IsAnchorAsset( IActor actor)
+        bool IsAnchorAsset(IActor actor)
         {
             return actor == AnchorAsset;
         }
 
-        bool IsAnchorAsset( ActorID id)
+        bool IsAnchorAsset(ActorID id)
         {
             return id == AnchorAsset.GetID();
         }
@@ -64,8 +64,8 @@
         {
             //remove previous actor from the hierarchy of the workspace
             EventManager.TriggerEvent(new EventActorDestroy(AnchorAsset));
-            //todo: should the OnDestroy of ActorComponent remove its ID from the factory?
-            //todo: should the Awake of ActorComponent add its ID to the factory
+            //TODO: should the OnDestroy of ActorComponent remove its ID from the factory?
+            //TODO: should the Awake of ActorComponent add its ID to the factory
 
             //nullify the current AnchorAssetID;
             AnchorAsset = null;
@@ -84,5 +84,5 @@
 
             return false;
         }
-     }
+    }
 }

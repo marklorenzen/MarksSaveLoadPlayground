@@ -7,7 +7,7 @@
     {
         private Color _color;
 
-        public override bool AddActor(IActor actor) { return false; } //todo this should allow any actor, cuz we are a test class, yo
+        public override bool AddActor(IActor actor) { return false; } //TODO this should allow any actor, cuz we are a test class, yo
         public override bool IsRead_OnlyWorkspace() { return false; } //never read-only
         public override string GetSpecificSuffix() { return ""; } //inspecific, allows any isvr file/metadata file
         public override Color GetColor() { return _color; }

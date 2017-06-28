@@ -137,8 +137,8 @@
         }
 
         /// <summary>
-        /// todo this should take some parameters to fix-up the new actor before assigning reference in event
-        /// todo this should place the new Actor's transform into the appropriate spot under the workspace root
+        /// TODO this should take some parameters to fix-up the new actor before assigning reference in event
+        /// TODO this should place the new Actor's transform into the appropriate spot under the workspace root
         /// </summary>
         /// <returns></returns>
         IActor CreateActor(Actor prefab)
@@ -156,7 +156,7 @@
         {
             if (victim != null)
             {
-                //todo, should this remove the ID from the usedIDs dictionary?
+                //TODO, should this remove the ID from the usedIDs dictionary?
                 //or should the ActorComponent class do that from within its OnDestroy?
                 //should the ID be added from Actor Awake()?
                 Destroy(victim.GetTransform().gameObject);
@@ -167,7 +167,7 @@
 
         void FixUpNewActor( ref Actor newActor)
         {
-            //todo this should be full of fix-up code to make the new actor all  
+            //TODO this should be full of fix-up code to make the new actor all  
             //nice and pretty and a suitable member of polite actor society
         }
 
@@ -178,7 +178,7 @@
         /// <returns></returns>
         Transform GetParentForNewActor()
         {
-            //todo this sux, should not couple workspace manager to actor factory like this
+            //TODO this sux, should not couple workspace manager to actor factory like this
             return WorkspaceManager.CurrentWorkspace.GetWorkspaceTransform(); 
         }
 

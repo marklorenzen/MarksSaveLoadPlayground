@@ -362,7 +362,7 @@
         Queue<string> _recentPaths = new Queue<string>();
 
         /// <summary>
-        /// todo parts of this fn could be done more sparsely, as in a
+        /// TODO parts of this fn could be done more sparsely, as in a
         /// slowly updating coroutine
         /// </summary>
         /// <returns></returns>

@@ -1,6 +1,6 @@
 ﻿namespace Strata
 {
-     using System.IO;
+    using System.IO;
     using UnityEngine;
 
     public static class ISVR_MetaDataFile
@@ -16,10 +16,10 @@
 
                 return metaData;
             }
-             
+
             Debug.LogError("Cannot load metadata at " + path);
             return null;
-             
+
         }
 
         public static bool SaveMetaData(ISVR_MetaData metaData, string metaDataFileName)

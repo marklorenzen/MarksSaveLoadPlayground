@@ -15,6 +15,6 @@
             var data = JsonUtility.FromJson<ISVR_MetaData>(json);
             return data;
         }
-            
+
     }
 }

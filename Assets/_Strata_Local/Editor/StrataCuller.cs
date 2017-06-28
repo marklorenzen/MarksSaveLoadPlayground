@@ -300,7 +300,7 @@
             if (T.IsSubclassOf(typeof(UIBehaviour)))
                 return true;
 
-            //todo add more cases; types that we would exclude from out report
+            //TODO add more cases; types that we would exclude from out report
 
             return false;
         }

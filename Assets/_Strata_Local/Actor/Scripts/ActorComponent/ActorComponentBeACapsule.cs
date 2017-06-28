@@ -42,7 +42,7 @@
         public override void OnLoad(ISVR_MetaData.ActorRecord record)
         {
             if (record._components.Count > 0)
-                _data = record._components[0]._data;//todo account for multiple components, for goodness sake
+                _data = record._components[0]._data;//TODO account for multiple components, for goodness sake
 
 
             Renderer ren = GetComponent<Renderer>();

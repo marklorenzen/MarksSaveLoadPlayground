@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using UnityEngine;
 
-     //ActorStage,   inherits WorkspaceBase and implements
+    //ActorStage,   inherits WorkspaceBase and implements
     //IActor, so it can pseudo-load a stage's stuff as if it were
     //a workspace, but it can be placed as an actor into a
     //presentation workspace... and code can be added (or omitted)
@@ -29,10 +29,10 @@
         public string GetName() { return name; }
         public string GetParentName() { return ""; }
         public ActorType GetActorType() { return ActorType.Stage; }
-        public void SetActorType(ActorType type) {} //nothing
+        public void SetActorType(ActorType type) { } //nothing
         public ActorID GetActorParent() { return GetID(); }
-        public Transform GetTransform() { return transform; }//todo cache reference to workspace transform?
-        public ActorID GetID() { return ID; }  
+        public Transform GetTransform() { return transform; }//TODO cache reference to workspace transform?
+        public ActorID GetID() { return ID; }
         public ActorID GetActorAncestor() { return GetID(); }
         public override Color GetColor() { return Color.red; }
         public void OnSave() { }
@@ -52,7 +52,7 @@
         string _prefabRootString;
         public string GetPrefabRootString()
         {
-            return _prefabRootString; 
+            return _prefabRootString;
         }
         public void SetPrefabRootString(string root)
         {
@@ -79,7 +79,7 @@
                 _data.StageData = new Data[] { new Data() };
             }
 
-            //todo, stash the data required for this 'actor' to load its 'workspace'
+            //TODO, stash the data required for this 'actor' to load its 'workspace'
             _data.StageData[0]._url = "caca";
         }
 
@@ -96,7 +96,7 @@
             //ActorStage saves and loads as a nested, readonly workspace
 
             if (record._components.Count > 0)
-                _data = record._components[0]._data;//todo account for multiple components, for goodness sake
+                _data = record._components[0]._data;//TODO account for multiple components, for goodness sake
 
             if (_data != null)
             {
@@ -108,18 +108,17 @@
                         //should involve very little overhead, as this actor is already a "workspace"
                         //perhaps as simple as just calling my, LoadWorkspace right here
                         var isvrPath = stageData[0]._url;
-                        LoadWorkspace( isvrPath);
+                        LoadWorkspace(isvrPath);
 
                         //put myself in the 'middle' of the presentation workspace 
                         transform.position = Vector3.zero;
                         transform.rotation = Quaternion.identity;
                         transform.localScale = Vector3.one;
 
-
-                        //todo: maybe need to switch-on some read-only properties
+                        //TODO: maybe need to switch-on some read-only properties
                         //to ensure that neither this actor (nor its parts) can be selected, mutated, deleted
                         //other than by replacing it with another ActorStage.
-                     }
+                    }
                     else
                         Debug.LogWarning("null color at stageData[0] in ActorStage.OnLoad " + name);
 
@@ -130,7 +129,7 @@
             }
             else
                 Debug.LogWarning("null data in ActorStage.OnLoad " + name);
- 
+
         }
 
         public List<ActorComponent> GetActorComponents()

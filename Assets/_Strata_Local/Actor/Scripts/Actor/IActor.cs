@@ -31,7 +31,7 @@
         string GetPrefabKey();
         void SetPrefabKey(string key);
 
-        //todo: these are redundant between IActor and IActorComponent
+        //TODO: these are redundant between IActor and IActorComponent
         // I think these should only be defined in IActorComponent
         //which may require some fancy casting to get a workspace full of IActors 
         //to save and load

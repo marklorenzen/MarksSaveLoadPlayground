@@ -20,7 +20,7 @@
 
         public override bool IsRead_OnlyWorkspace()
         {
-            //todo add all the presentation-edit specific reasons to be read-only
+            //TODO add all the presentation-edit specific reasons to be read-only
             return base.IsRead_OnlyWorkspace();
         }
 

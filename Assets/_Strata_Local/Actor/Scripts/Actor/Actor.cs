@@ -26,7 +26,7 @@
 
         public string GetPrefabRootString() { return _prefabRootString; }
         public void SetPrefabRootString(string root) { _prefabRootString = root; }
-        public string GetDependencyURL() { return "FakeTestDependencies/SophiaVergara.png"; }//todo, return an authentic dependency
+        public string GetDependencyURL() { return "FakeTestDependencies/SophiaVergara.png"; }//TODO, return an authentic dependency
          
         [SerializeField]
         [HideInInspector]
@@ -145,7 +145,7 @@
             else
                 transform.rotation = Quaternion.identity;
 
-            //todo local scale should be assigned after transform is parented
+            //TODO local scale should be assigned after transform is parented
             if (trans.Scale != null && trans.Scale.Length == 3)
                 transform.localScale = new Vector3(trans.Scale[0], trans.Scale[1], trans.Scale[2]);
             else
@@ -161,7 +161,7 @@
 
         /// <summary>
         /// Gets all the ActorComponents within the actor's hierarchy
-        /// todo, We can make a flat-ordered array of all the component
+        /// TODO, We can make a flat-ordered array of all the component
         /// children throughout the hierarchy, all the buildableaxes, 
         /// buildable parts, etc, such that the Actor.OnLoad can rebuild
         /// the full complexity of the actor, as if the actor had made it.

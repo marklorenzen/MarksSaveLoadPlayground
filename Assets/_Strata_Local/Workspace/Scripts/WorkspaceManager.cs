@@ -27,18 +27,18 @@
                 case EventWorkspaceLoad.EventName:
                     //Debug.Log("WorkspaceManager.HandleEvent " + evtName);
                     var loadFilePath = (string)evt.GetData();
-                    _currentWorkspace.LoadWorkspace(loadFilePath);//todo validate
+                    _currentWorkspace.LoadWorkspace(loadFilePath);//TODO validate
                     return ListenerResult.Handled;
 
                 case EventWorkspaceSave.EventName:
                     //Debug.Log("WorkspaceManager.HandleEvent " + evtName);
                     var saveFilepath = (string)evt.GetData();
-                    _currentWorkspace.SaveWorkspace(saveFilepath);//todo validate
+                    _currentWorkspace.SaveWorkspace(saveFilepath);//TODO validate
                     return ListenerResult.Handled;
 
                 case EventWorkspaceClear.EventName:
                     //Debug.Log("WorkspaceManager.HandleEvent " + evtName);
-                    _currentWorkspace.ClearWorkspace();//todo validate
+                    _currentWorkspace.ClearWorkspace();//TODO validate
                     return ListenerResult.Handled;
 
                 case EventWorkspaceNew.EventName:
